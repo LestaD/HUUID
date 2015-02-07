@@ -1,8 +1,10 @@
 <?php
 
-require_once __DIR__ .'/src/huuid.php';
+require_once __DIR__.'/vendor/autoload.php';
 
-use LestaD\HUUID;
+#require_once __DIR__ .'/src/huuid.php';
+
+use \lestad\HUUID;
 
 echo HUUID::create('net.lestad'), PHP_EOL;
 echo HUUID::rHUUID('net.lestad'), PHP_EOL;
