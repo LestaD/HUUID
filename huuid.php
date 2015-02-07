@@ -9,8 +9,10 @@
  *
  * @author LestaD
  * @package net.lestad.huuid
- * @version 1.0
+ * @version 1.0.1
  */
+
+namespace LestaD;
 
 class HUUID
 {
