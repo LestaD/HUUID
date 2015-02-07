@@ -1,6 +1,8 @@
 <?php
 
-include "huuid.php";
+require_once __DIR__ .'/src/huuid.php';
+
+use LestaD\HUUID;
 
 echo HUUID::create('net.lestad'), PHP_EOL;
 echo HUUID::rHUUID('net.lestad'), PHP_EOL;
